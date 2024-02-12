@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/53184/peacock-bird-plumage-color-53184.jpeg?auto=compress&cs=tinysrgb&w=600" alt="No image" usemap="#image-map">
+    
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="290, 44, 354, 104" shape="rect">
+        <area onclick="two()" target="" alt="" title="" href="" coords="32, 58, 107, 103" shape="rect">
+    </map>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="https://www.pexels.com/photo/green-tree-268533/">
+        <source media="(min-width:460px)" srcset="https://images.pexels.com/photos/326055/pexels-photo-326055.jpeg?auto=compress&cs=tinysrgb&w=600">
+        <img src="https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=600" alt="No image">
+    </picture>
+
+    <script>
+        function one(){
+            alert("one");
+        }
+        function two(){
+            alert("two");
+        }
+    </script>
+</body>
+</html>
